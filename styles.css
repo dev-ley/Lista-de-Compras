@@ -18,23 +18,22 @@ body {
     background: var(--degrade-azul);
     background-repeat: no-repeat;
     height: 100vh;
-
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 main {
     background-color: var(--neutro);
     margin-top: 64px;
-
     display: flex;
+
     flex-direction: column;
     gap: 24px;
-
-    width: 440px;
+    width: 100%;
     padding: 56px;
-
     align-items: center;
     border-radius: 16px;
 }
